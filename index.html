@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transport - Premium Storage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        Example Website created by Strydom Web
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left"></div>
+        <div class="header-center">
+            <h1>Select your Storage</h1>
+        </div>
+        <div class="header-right">
+            <span class="icon">✦</span>
+            <span class="icon">📘</span>
+            <span class="icon">🐦</span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="product-navigation">
+            <button class="nav-btn prev" onclick="changeProduct(-1)">‹</button>
+            
+            <div class="product-showcase">
+                <img id="hero-product" src="usb-hero.png" alt="Transport USB Drive">
+            </div>
+            
+            <button class="nav-btn next" onclick="changeProduct(1)">›</button>
+        </div>
+        
+        <div class="product-info">
+            <h2 class="product-name">TRANSPORT</h2>
+            <p class="product-tagline">The drive you've been looking for.</p>
+            
+            <div class="product-details">
+                <span class="detail">1 TB Drive</span>
+                <button class="buy-button" onclick="handlePurchase()">Buy $180</button>
+                <span class="detail">Club Key</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="features-container">
+            <h2 class="features-title">Storage Club's Performance Key</h2>
+            
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>1TB</h3>
+                    <p>More storage than most laptops, in the palm of your hand.</p>
+                </div>
+                <div class="feature">
+                    <h3>SSD</h3>
+                    <p>Solid State Drives enable lightning fast transfers.</p>
+                </div>
+                <div class="feature">
+                    <h3>Storage Club Access</h3>
+                    <p>Each USB comes with an invite to the network.</p>
+                </div>
+            </div>
+            
+            <button class="buy-button secondary">Buy</button>
+            
+            <div class="feature-image">
+                <img src="usb-lifestyle1.png" alt="USB with keys">
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="gallery-container">
+            <h2 class="gallery-title">ALWAYS WITH YOU</h2>
+            
+            <div class="gallery-grid">
+                <img src="usb-lifestyle1.png" alt="USB on keychain">
+                <img src="usb-lifestyle2.png" alt="USB in pocket">
+                <img src="usb-hero.png" alt="USB studio shot">
+                <img src="usb-ssd.png" alt="USB on concrete">
+            </div>
+        </div>
+    </section>
+
+    <!-- Space Section -->
+    <section class="space">
+        <div class="space-container">
+            <h2 class="space-title">Space that Travels</h2>
+            <p class="space-description">A portable drive that goes wherever you do.</p>
+            <div class="space-image">
+                <img src="usb-lifestyle2.png" alt="Portable storage">
+            </div>
+        </div>
+    </section>
+
+    <!-- SSD Performance Section -->
+    <section class="ssd-section">
+        <div class="ssd-container">
+            <div class="ssd-label">PORTABLE SSD</div>
+            <h2 class="ssd-title">Drive Faster</h2>
+            <p class="ssd-description">USBs used to be slow. Transport's SSD gives you 7x faster transfer times. That's 5GBs in 15sec.</p>
+            <div class="ssd-image">
+                <img src="usb-ssd.png" alt="High performance SSD">
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect Section -->
+    <section class="connect">
+        <div class="connect-container">
+            <div class="connect-label">UNLOCK NEW STORAGE</div>
+            <h2 class="connect-title">Plug & Share</h2>
+            <p class="connect-description">Connect to discover and share data with people like you.</p>
+            <div class="connect-platform">Via the 📱 Storage App</div>
+            <div class="connect-image">
+                <img src="usb-hero.png" alt="Connected storage">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <a href="#" class="footer-icon">🐦</a>
+                <a href="#" class="footer-icon">📘</a>
+                <a href="#" class="footer-icon">📎</a>
+            </div>
+            <div class="footer-center">
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Support</a>
+                <a href="#">Privacy</a>
+            </div>
+            <div class="footer-right">
+                <span class="footer-icon">💧</span>
+                <span class="footer-icon">✦</span>
+                <span class="footer-icon">❤️</span>
+                <div class="copyright">Strydom Web Inc. 2025 Example, NY</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
